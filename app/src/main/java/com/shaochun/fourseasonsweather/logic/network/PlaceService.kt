@@ -12,6 +12,10 @@ import retrofit2.http.Query
  * @描述:
  */
 interface PlaceService {
+    /**
+     * 搜索地点
+     */
     @GET("v2/place?token=${WeatherApplication.TOKEN}&lang=zh_CN")
     fun searchPlaces(@Query("query") query: String): Call<PlaceResponse>
+
 }

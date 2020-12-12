@@ -1,6 +1,5 @@
 package com.shaochun.fourseasonsweather.logic.model
 
-import android.location.Location
 import com.google.gson.annotations.SerializedName
 
 /**
